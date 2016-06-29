@@ -287,11 +287,15 @@
 																<p>
 																	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 																</p>
+
 																<h4>Popovers in a modal window</h4>
-																<a href="#" class="btn btn-danger pop">Don't click this</a>
+																<a href="#" class="btn btn-danger pop" data-toggle="popover" data-placement="pop" data-original-title="You clicked it" data-content="Iknew u would">Don't click this</a>
+
 																<h4>Tooltips in a modal</h4>
-																<a href="#">This link</a>should have tip so <a href="#">this one</a>
+																<a href="#" data-original-title="Tooltip" rel="tooltip">This link</a>should have tip so <a href="#" data-original-title="hello!!" rel="tooltip">this one</a>
+
 																<hr>
+
 																<p>
 																	<small class="text-muted"></small>	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 																</p>
@@ -311,15 +315,16 @@
 																	</div>
 
 																	<div class="form-group">
-																		<label class="col-lg-2 control-label" for="inputMessage">Email</label>
+																		<label class="col-lg-2 control-label" for="inputMessage">Message</label>
 																		<div class="col-lg-10">
-																				<textarea class="form-control" id="inputEmail" placeholder="Message" rows="3"></textarea>
+																				<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
 																				<button class="btn btn-success pull-right" type="submit" >Send!</button>
 																		</div>
 																	</div>
 																</form><!--end form-->
 
 															</div><!--modalbody-->
+
 															<div class="modal-footer">
 																<button class="btn btn-default " data-dismiss="modal" type="button">Close</button>
 																<button type="button" class="btn btn-primary" >Save Chnages</button>
@@ -331,15 +336,115 @@
 							</div><!--end tab content-->
 
 					</div><!--end tabbable-->
-				</div>
+				</div><!--end of col 6-->
+
+        <div class="col-sm-6">
+					<h3>Some more info</h3>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+        	<h4>A List Group</h4>
+					<div class="list-group">
+						<a href="#" class="list-group-item">
+             	<h4 class="list-group-item-heading">Kale</h4>
+							<p class="list-group-item-text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Carrot</h4>
+							<p class="list-group-item-text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</p>
+						</a>
+						<a href="#" class="list-group-item">
+							<h4 class="list-group-item-heading">Radish</h4>
+							<p class="list-group-item-text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							</p>
+						</a>
+					</div><!-- end of list group-->
+					<h5>Asmall heading</h5>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+        </div><!--end of col6 -->
+
 			</div><!--end moreInfo-->
-
+			<hr>
 			<div class="row" id="moreCourses">
+        <div class="col-12">
+        	<h3>Learn more about web courses</h3>
+					<div class="thumbnails row">
+            <div class="col-6">
+							<div class="thumbnail">
+								<img src="images/item_webhosting101.jpg" alt="thumbnail" />
+								<div class="label label-success price"><span class="glyphicon glyphicon-tag"></span><sup>$</sup>39</div>
+								<div class="caption">
+									<h3>Web Hosting</h3>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									</p>
+									<a href="http://udemy.com" class="btn btn-primary btn-small" target="_blank">Take Course	<a href="http://udemy.com" class="btn btn-primary btn-small btn-link" target="_blank">Learn more</a>
+								</div><!--end of caption-->
+							</div><!--end of thumbnail-->
+            </div><!--end of col6-->
 
+						<div class="col-6">
+							<div class="thumbnail">
+								<img src="images/item_psd2html5.jpg" alt="thumbnail" />
+						  	<div class="label label-info price"><span class="glyphicon glyphicon-tag"></span>Free</div>
+								<div class="caption">
+									<h3>PSD to HTML5</h3>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+									</p>
+									<a href="http://udemy.com" class="btn btn-primary btn-small" target="_blank">Take Course	<a href="http://udemy.com" class="btn btn-primary btn-small btn-link" target="_blank">Learn more</a>
+								</div><!--end of caption-->
+							</div><!--end of thumbnail-->
+						</div><!--end of col6-->
+
+					</div><!--end row-->
+        </div><!--end of col12-->
 			</div><!--moreCourses-->
 
 		</div><!--end container -->
+		<footer>
+			<div class="container">
+				<div class="row">
+          <div class="col-sm-2">
+          	<h6>Copyright &copy; 2013{name}</h6>
+          </div><!--end col-->
+					<div class="col-sm-4">
+						<h6>About us</h6>
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</p>
+					</div><!--end colsm4-->
+					<div class="col-sm-2">
+						<h6>Navigation</h6>
+						<ul class="unstyled">
+               <li><a href="#">Home</a></li>
+							 <li><a href="#">Services</a></li>
+							<li><a href="#">About</a></li>
+						   <li><a href="#">Contact</a></li>
+						</ul>
+					</div><!--end col-->
+					<div class="col-sm-2">
+						<h6>Follow us</h6>
+						<ul class="unstyled">
+               <li><a href="#">twitter</a></li>
+							 <li><a href="#">Facebook</a></li>
+							<li><a href="#">Google Plus</a></li>
+						</ul>
+					</div><!--end col-->
+					<div class="col-sm-2">
+						<h6>Coded with <span class="glyphicon glyphicon-heart"></span>by sandhya</h6>
 
+					</div><!--end col-->
+				</div><!--end row-->
+			</div><!--end footer container-->
+		</footer><!--end footer-->
 	<!-- All Javascript at the bottom of the page for faster page loading -->
 
 	<!-- First try for the online version of jQuery-->

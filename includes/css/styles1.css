@@ -1,0 +1,199 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   footer{
+     background: #333;
+     color:#eee ;
+     font-size: 11px;
+     padding: 20px;
+   }
+.modal-footer{
+  padding-top: 15px;
+}
+#moreInfo{
+padding-top: 20px;
+}
+.ani{
+padding-top: 100px;
+padding-left: 150px;
+}
+/*.ani img{
+  height: 300px;
+}*/
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body{
+  -webkit-font-smoothing: antialised;
+   text-rendering: optimizeLegibility;
+   font-family:  font-family: 'Open Sans', sans-serif;
+   background: white;
+}
+.well .page-header{
+  margin-top: 0;
+}
+.well .page-header h1{
+  margin-top: 0;
+}
+.panel_heading h3{
+  text-align: center;
+  margin-bottom: 20px;
+  color: black;
+  font-weight: 700;
+}
+ul.unstyled{
+  list-style: none;
+  padding: 0;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchInput{
+     width: 200px;
+   }
+   .navbar-brand{
+     padding: 5px 15px;
+   }
+   .navbar-brand img{
+     padding-top: 0px;
+     width: 60px;
+     height: 60px;
+   }
+   .navbar{
+     background:#922216    ;
+     opacity: 1;
+   }
+  .active{
+    color: black;
+  }
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel .item{
+  height: 600px;
+}
+
+  #slide1{
+  background: url('../../images/c3.jpg') top center no-repeat  ;
+  background-size: cover;
+  }
+  #slide2{
+    background: url('../../images/homepage-grid.jpg') top center no-repeat  ;
+
+  }
+  #slide3{
+    background: url('../../images/001_wuxi-ikea-shopping-mall_inside.jpg') top center no-repeat  ;
+  }
+.carousel{
+  padding-top: 70px;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.well{
+  margin: 20px 0px;
+}
+.alert{
+  margin-top: 20px;
+  display: none;
+}
+.item h4{
+  font-size: 40px;
+  margin-bottom: 280px;
+  font-weight: 700;
+  color: white;
+  z-index: 999;
+}
+.backdrop{
+  background: black;
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+}
+.item p{
+  font-size: 30px;
+}
+
+.story img{
+  width: 100%;;
+  height: 100%;
+
+}
+#story1{
+  padding-top: 60px;
+}
+#story2{
+  padding-top: 60px;
+}
+#story3{
+  padding-top: 60px;
+}
+.story p{
+  padding-top: 50px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 2;
+}
+.thumbnails{
+  margin: 20px 0;
+}
+.thumbnail{
+  position: relative;
+}
+.thumbnail h3{
+  font-size: 16px;
+  margin: 0 0 10px;
+  line-height: 20px;
+}
+.thumbnail .price{
+  font-size: 22px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 10px;
+}
+.thumbnail .sup{
+  font-weight: normal;
+  font-size: 12px;
+}
+.thumbnail span.glyphicon{
+  margin-right: 5px;
+}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
