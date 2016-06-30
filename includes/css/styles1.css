@@ -13,11 +13,18 @@ Notes:	 Hand coded for Udemy.com
 /* --------------------------------------
    Layout
    -------------------------------------- */
-   footer{
-     background: #333;
+footer{
+     background: #953B04 ;
      color:#eee ;
      font-size: 11px;
      padding: 20px;
+     opacity: 0.8;
+   }
+footer h1{
+     font-family: 'Open Sans', sans-serif;
+     color: black;
+     font-style: italic;
+     font-weight: 700;
    }
 .modal-footer{
   padding-top: 15px;
@@ -25,13 +32,28 @@ Notes:	 Hand coded for Udemy.com
 #moreInfo{
 padding-top: 20px;
 }
-.ani{
-padding-top: 100px;
-padding-left: 150px;
+
+#culture img{
+  height: 187px;
+  width: 300px;
+  margin-right: 20px;
 }
-/*.ani img{
-  height: 300px;
-}*/
+#craft img{
+  height: 187px;
+  width: 300px;
+  margin-right: 20px;
+}
+#food img{
+  height: 187px;
+  width: 300px;
+  margin-right: 20px;
+}
+#eventinfo{
+  padding-top: 50px;
+}
+#main{
+margin-top: 80px;
+}
 
 /* --------------------------------------
    Typography
@@ -39,7 +61,6 @@ padding-left: 150px;
 body{
   -webkit-font-smoothing: antialised;
    text-rendering: optimizeLegibility;
-   font-family:  font-family: 'Open Sans', sans-serif;
    background: white;
 }
 .well .page-header{
@@ -58,6 +79,19 @@ ul.unstyled{
   list-style: none;
   padding: 0;
 }
+.book p{
+  font-size: 15px;
+font-weight: lighter;
+}
+ul.unstyled li a{
+color: black;
+font-weight: 600;
+font-size: 12px;
+}
+.caption h3{
+  font-weight: 700;
+}
+
 
 /* --------------------------------------
    Navbar
@@ -66,20 +100,22 @@ ul.unstyled{
      width: 200px;
    }
    .navbar-brand{
-     padding: 5px 15px;
+     padding: 0px 15px;
+     font-size: 15px;
+     color: black;
+     font-weight: 300;
    }
    .navbar-brand img{
      padding-top: 0px;
      width: 60px;
-     height: 60px;
+     height: 50px;
+
    }
    .navbar{
-     background:#922216    ;
-     opacity: 1;
+     background:#953B04  ;
+     opacity: 0.8;
    }
-  .active{
-    color: black;
-  }
+
 
 
 /* --------------------------------------
@@ -87,22 +123,26 @@ ul.unstyled{
    -------------------------------------- */
 #myCarousel .item{
   height: 600px;
+
 }
 
   #slide1{
-  background: url('../../images/c3.jpg') top center no-repeat  ;
-  background-size: cover;
+  background: url('../../images/VIK_5643.JPG') top center no-repeat  ;
+  background-size: 1366px 600px;
   }
   #slide2{
-    background: url('../../images/homepage-grid.jpg') top center no-repeat  ;
-
+    background: url('../../images/classical dance in india.jpg') top center no-repeat  ;
+    background-size: 1366px 600px;
   }
   #slide3{
-    background: url('../../images/001_wuxi-ikea-shopping-mall_inside.jpg') top center no-repeat  ;
+    background: url('../../images/mohiniyattam-wall-paper-1024x768.jpg') top center no-repeat  ;
+    background-size: 1366px 600px;
   }
 .carousel{
-  padding-top: 70px;
+  padding-top: 50px;
 }
+
+
 
 
 /* --------------------------------------
@@ -138,14 +178,9 @@ ul.unstyled{
 
 }
 #story1{
-  padding-top: 60px;
+  padding-top: 0px;
 }
-#story2{
-  padding-top: 60px;
-}
-#story3{
-  padding-top: 60px;
-}
+
 .story p{
   padding-top: 50px;
   font-size: 18px;
@@ -155,6 +190,7 @@ ul.unstyled{
 .thumbnails{
   margin: 20px 0;
 }
+
 .thumbnail{
   position: relative;
 }
@@ -177,6 +213,15 @@ ul.unstyled{
 .thumbnail span.glyphicon{
   margin-right: 5px;
 }
+.unstyled i{
+  color: black;
+}
+
+/*-------------------------------------
+tabbable
+---------------------------------------*/
+
+
 
 
 /* --------------------------------------
