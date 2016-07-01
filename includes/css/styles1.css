@@ -17,8 +17,8 @@ footer{
      background: #953B04 ;
      color:#eee ;
      font-size: 11px;
-     padding: 20px;
-     opacity: 0.8;
+     padding: 5px;
+     opacity: 0.9;
    }
 footer h1{
      font-family: 'Open Sans', sans-serif;
@@ -26,13 +26,9 @@ footer h1{
      font-style: italic;
      font-weight: 700;
    }
-.modal-footer{
-  padding-top: 15px;
-}
 #moreInfo{
 padding-top: 20px;
 }
-
 #culture img{
   height: 187px;
   width: 300px;
@@ -54,6 +50,21 @@ padding-top: 20px;
 #main{
 margin-top: 80px;
 }
+.form-group{
+  padding-bottom: 20px;
+}
+.form-control{
+margin-bottom: 10px;
+}
+.tab-pane{
+  margin-left: 10px;
+}
+#moreInfo{
+  margin-left: 10px;
+}
+.panel_heading{
+  text-align: center;
+}
 
 /* --------------------------------------
    Typography
@@ -61,7 +72,7 @@ margin-top: 80px;
 body{
   -webkit-font-smoothing: antialised;
    text-rendering: optimizeLegibility;
-   background: white;
+   background:white;
 }
 .well .page-header{
   margin-top: 0;
@@ -80,16 +91,21 @@ ul.unstyled{
   padding: 0;
 }
 .book p{
-  font-size: 15px;
+font-size: 15px;
 font-weight: lighter;
 }
 ul.unstyled li a{
 color: black;
-font-weight: 600;
-font-size: 12px;
+font-size: 15px;
 }
-.caption h3{
-  font-weight: 700;
+ul.unstyled li{
+    display: inline;
+    padding-right: 10px;
+}
+ul.nav.navbar-nav.pull-right li a{
+  color: #eee;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 
@@ -113,7 +129,7 @@ font-size: 12px;
    }
    .navbar{
      background:#953B04  ;
-     opacity: 0.8;
+     opacity: 0.9;
    }
 
 
@@ -123,20 +139,19 @@ font-size: 12px;
    -------------------------------------- */
 #myCarousel .item{
   height: 600px;
-
 }
 
   #slide1{
   background: url('../../images/VIK_5643.JPG') top center no-repeat  ;
-  background-size: 1366px 600px;
+  background-size: cover;
   }
   #slide2{
     background: url('../../images/classical dance in india.jpg') top center no-repeat  ;
-    background-size: 1366px 600px;
+    background-size: cover;
   }
   #slide3{
-    background: url('../../images/mohiniyattam-wall-paper-1024x768.jpg') top center no-repeat  ;
-    background-size: 1366px 600px;
+    background: url('../../images/Kathakali_0287_by_Joseph_Lazer.jpg') top center no-repeat  ;
+    background-size: cover;
   }
 .carousel{
   padding-top: 50px;
@@ -175,7 +190,6 @@ font-size: 12px;
 .story img{
   width: 100%;;
   height: 100%;
-
 }
 #story1{
   padding-top: 0px;
@@ -199,23 +213,10 @@ font-size: 12px;
   margin: 0 0 10px;
   line-height: 20px;
 }
-.thumbnail .price{
-  font-size: 22px;
-  position: absolute;
-  top: -10px;
-  right: -10px;
-  padding: 10px;
-}
-.thumbnail .sup{
-  font-weight: normal;
-  font-size: 12px;
-}
-.thumbnail span.glyphicon{
-  margin-right: 5px;
-}
 .unstyled i{
   color: black;
 }
+
 
 /*-------------------------------------
 tabbable

@@ -26,47 +26,9 @@
 
 	</head>
 	<body>
-		<div class="carousel slide" id="myCarousel">
-
-			<!--indicators-->
-				<ol class="carousel-indicators">
-					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
-					<li data-slide-to="1" data-target="#myCarousel"></li>
-					<li data-slide-to="2" data-target="#myCarousel"></li>
-				</ol>
-
-			<!--wrapper for slides=-->
-			<div class="carousel-inner">
-
-				<div class="item active" id="slide1">
-						<div class="carousel-caption">
-
-						</div><!--end carousel-caption-->
-
-				</div><!-- end item1-->
-
-				<div class="item" id="slide2">
-						<div class="carousel-caption">
-					<!--		<h4>Unable to decide</h4>-->
-						</div><!--end carousel-caption-->
 
 
-				</div><!-- end item2-->
-
-				<div class="item" id="slide3">
-					<!--	<div class="carousel-caption">
-							<h4>Scroll down for a mall tour</h4>
-						</div>end carousel-caption-->
-
-				</div><!-- end item3-->
-			</div><!--end inner carousel-->
-
-			<!--carousel controls-->
-				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
-				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
-		</div><!--end carousel -->
-
-		<div class="container" id="main">
+		<div class="container">
       <div class="navbar navbar-fixed-top">
 
           <div class="container">
@@ -83,8 +45,11 @@
 
                   <ul class="nav navbar-nav pull-right ">
                     <li class="home">
-                      <a href="#">Home</a>
+                      <a href="boot.html">Home</a>
                     </li>
+										<li class="portfolio">
+											<a href="#moreInfo">Portfolio</a>
+										</li>
 
                     <li class="dropdown">
                       <a href="#" class="dropdown-toggle" data-toggle="dropdown">Taj Mahotsav<strong class="caret"></strong></a>
@@ -110,14 +75,14 @@
                         </li>
 
                         <li>
-                          <a href="#">Destinations to visit</a>
+                          <a href="boot2.html">Destinations to visit</a>
                         </li>
 
                         <li>
                             <a href="#">Gallery</a>
                         </li>
                       </ul><!--end dropdown menu-->
-                    </li>
+                    </li><!--end of dropdown-->
 
 										<li class="dropdown">
 											<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>My Account <strong class="caret"></strong></a>
@@ -140,23 +105,59 @@
 															<a href="#"><span class="glyphicon glyphicon-off"></span> Sign Out</a>
 													</li>
 											</ul>
-										</li>
+										</li><!--end of dropdown-->
                   </ul><!--end nav-->
 
               </div><!--end navbar collapse-->
          </div><!--end navbar container-->
 
       </div><!--end navbar -->
+		</div> <!--container for nav ends -->
+
+		<div class="container-fluid">
+
+			<div class="carousel slide" id="myCarousel" >
+
+				<!--indicators-->
+					<ol class="carousel-indicators">
+						<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+						<li data-slide-to="1" data-target="#myCarousel"></li>
+						<li data-slide-to="2" data-target="#myCarousel"></li>
+					</ol>
+
+				<!--wrapper for slides=-->
+				<div class="carousel-inner">
+
+					<div class="item active" id="slide1">
+					</div><!-- end slide1-->
+
+					<div class="item" id="slide2">
+					</div><!-- end slide2-->
+
+					<div class="item" id="slide3">
+					</div><!-- end slide3-->
+
+				</div><!--end inner carousel-->
+
+				<!--carousel controls-->
+					<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+					<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+			</div><!--end carousel -->
 
 
-			<div class="story">
+		</div>
+
+
+		<div class="container">
+			<div class="story" >
 
 				<div class="row" id="story1">
 					<div class="col-sm-12">
 						<div class="panel_1">
 
 							<div class="panel_heading">
-								<h3 class="panel_title"><a href="#">Taj Mahotsav</a></h3>
+								<h1 class="panel_title"><a href="#">Taj Mahotsav</a></h1>
 							</div><!--end of panel heading-->
 							<div class="col-sm-5 feature">
 								<p>
@@ -175,48 +176,49 @@
 				</div><!--end of 12 grid system-->
 			</div><!--end of story1-->
 
-</div><!--end of story-->
+		</div><!--end of story-->
 
-<div class="row" id="moreInfo">
+<!--start of more Info----------->
+		<div class="row" id="moreInfo">
 
-		<h4>Taj Mahotsav gallery</h4>
-		<div class="tabbable">
-			<ul class="nav nav-tabs">
-				<li class="active"><a href="#tab1" data-toggle="tab">Culture</a></li>
-				<li><a href="#tab2" data-toggle="tab">Craft</a></li>
-				<li><a href="#tab3" data-toggle="tab">Cuisine</a></li>
-			</ul>
-			<div class="tab-content">
-				<div class="tab-pane active" id="tab1">
-					<h4> <span class="glyphicon glyphicon-map-marker"></span>Dance,music,plays<small>much more</small></h4>
-					<div class="row" id="culture">
-						<div class="col-sm-12" >
-							<div class="col-sm-3 ">
-								<div class="thumbnail d1" >
-									<img src="images/3th.jpg" alt="d1" />
-								</div><!--end of thumbnail-->
-							</div><!--end of col sm3-->
-							<div class="col-sm-3 ">
-								<div class="thumbnail d2" id="d2">
-									<img src="images/1223.jpg" alt="d2" />
-								</div><!--end of thumbnail-->
-							</div><!--end of col sm3-->
-							<div class="col-sm-3">
-								<div class="thumbnail d3" >
+			<h1>Taj Mahotsav gallery</h1>
+			<div class="tabbable">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#tab1" data-toggle="tab">Culture</a></li>
+					<li><a href="#tab2" data-toggle="tab">Craft</a></li>
+					<li><a href="#tab3" data-toggle="tab">Cuisine</a></li>
+				</ul>
+				<div class="tab-content">
+					<div class="tab-pane active" id="tab1">
+						<h4> <span class="glyphicon glyphicon-music"></span>  Dance,music,plays<small>much more</small></h4>
+						<div class="row" id="culture">
+							<div class="col-sm-12" >
+								<div class="col-sm-3 ">
+									<div class="thumbnail d1" >
+										<img src="images/3th.jpg" alt="d1" />
+									</div><!--end of thumbnail-->
+								</div><!--end of col sm3-->
+								<div class="col-sm-3 ">
+									<div class="thumbnail d2" id="d2">
+										<img src="images/1223.jpg" alt="d2" />
+									</div><!--end of thumbnail-->
+								</div><!--end of col sm3-->
+								<div class="col-sm-3">
+									<div class="thumbnail d3" >
 										<img src="images/Incredible-India-Dances.jpg" alt="d3" />
-								</div><!--end of thumbnail-->
-							</div><!--end of col sm3-->
-							<div class="col-sm-3">
-								<div class="thumbnail d4" >
-										<img src="images/indian-dance-300x225.jpg" alt="d4" />
+									</div><!--end of thumbnail-->
+								</div><!--end of col sm3-->
+								<div class="col-sm-3">
+									<div class="thumbnail d4" >
+										<img src="images/indian-dance-300x225.jpg" alt="d4"  />
+									</div>
 								</div>
 							</div>
-						</div>
-					</div><!--end of culture-->
-				</div><!--end tab-pane-->
+						</div><!--end of culture-->
+					</div><!--end tab-pane-->
 
-				<div class="tab-pane " id="tab2">
-					<h4> <span class="glyphicon glyphicon-map-marker"></span>Handmade accesories, articraft</h4>
+					<div class="tab-pane " id="tab2">
+						<h4> <span class="glyphicon glyphicon-gift"></span>  Handmade accesories, articraft</h4>
 					<div class="row" id="craft">
 						<div class="col-sm-12">
 							<div class="col-sm-3">
@@ -244,7 +246,7 @@
 				</div><!--end tab-pane-->
 
         <div class="tab-pane " id="tab3">
-					<h4> <span class="glyphicon glyphicon-map-marker"></span>Various varities of food available<small>Rajasthani,gujrati,marathi</small></h4>
+					<h4> <span class="glyphicon glyphicon-cutlery"></span>Various varities of food available<small>  Rajasthani,gujrati,marathi</small></h4>
 				 <div class="row" id="food">
 						<div class="col-sm-12">
 								<div class="col-sm-3 ">
@@ -270,8 +272,8 @@
 					 </div>
 				</div><!--end of food -->
 		</div><!--end tab-pane-->
-			</div><!--end of tab content-->
-		</div><!--end of tabbable-->
+	</div><!--end of tab content-->
+</div><!--end of tabbable-->
 
 </div><!--end of moreinfo-->
 
@@ -308,26 +310,16 @@
 				<td>Mohit Chauhan</td>
 			</tr>
 		</tbody>
-		</table>
+	</table><!--end of table-->
 	</div><!--end of event list-->
 	<div class="col-sm-6">
-  	<iframe width="565" height="360" src="https://www.youtube.com/embed/pmqfiEiCLMc?autoplay=1&loop=1&playlist=FzmKP_amn8I" frameborder="0" allowfullscreen></iframe>
+  	<iframe width="100%" height="360" src="https://www.youtube.com/embed/pmqfiEiCLMc?autoplay=1&loop=1&playlist=FzmKP_amn8I" frameborder="0" allowfullscreen></iframe>
 	</div><!--end of col sm 6-->
 </div><!--end of row-->
 
-
 <div class="row" id="bigCallout">
 
-	<div class="col_12">
-
-		<div class="alert alert-success alert-block fade in" id="successAlert">
-			<button type="button" class="close"s data-dismiss="alert">&times;</button>
-
-			<h4>Logged in Successfully!</h4>
-			<p>
-				Click element in side to close this.
-			</p>
-		</div><!--end alert-->
+	<div class="col-12">
 
 		<!--visible only on small devices-->
 		<div class="well well-small visible-sm">
@@ -344,44 +336,53 @@
 				</p>
 			</div><!--end book-->
 
-			<a href="#myModal" role="button" class="btn btn-large btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span>Log in</a>
+			<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span>Log in</a>
 			<a href="" class="btn btn-large btn-link">Sign up</a>
 
 			<div class="modal fade in" id="myModal">
 				<div class="modal-dialog">
 					<div class="modal-content">
-						<div class="modal-header">
-							<button class="close" data-dismiss="modal">&times;</button>
-							<h4 class="modal-title">Log in</h4>
+					   	<div class="modal-header">
+								<button class="close" data-dismiss="modal">&times;</button>
+								<h4 class="modal-title">Log in</h4>
 							</div><!--modal header-->
 							<div class="modal-body">
 
 								<form class="form-horizontzal" >
+
+									<div class="alert alert-success alert-block fade in" id="successAlert">
+										<button type="button" class="close"s data-dismiss="alert">&times;</button>
+										<h4>Logged in Successfully!</h4>
+										<p>
+											Click element in side to close this.
+										</p>
+									</div><!--end alert-->
+
 									<div class="form-group">
 										<label class="col-lg-2 control-label" for="inputName">Name</label>
 										<div class="col-lg-10">
 											<input class="form-control" id="inputName" placeholder="Name" type="text">
-										</div>
-									</div>
+										</div><!--end col-lg-group-->
+									</div><!--end form group-->
 
 									<div class="form-group">
 										<label class="col-lg-2 control-label" for="inputEmail">Email</label>
 										<div class="col-lg-10">
 											<input class="form-control" id="inputEmail" placeholder="Email" type="email">
-										</div>
-									</div>
+										</div><!--end col-lg-10-->
+									</div><!--end form-->
 
 									<div class="form-group">
 										<label class="col-lg-2 control-label" for="pwd">Password</label>
 										<div class="col-lg-10">
 											<input type="password" id="pwd" class="form-control" value="password">
-										</div>
-									</div>
+										</div><!--end col lg 10-->
+									</div><!--end of form group-->
 								</form><!--end form-->
 
 							</div><!--modal body-->
 							<div class="modal-footer">
-								<button type="button" class="btn btn-primary" >Log in</button>
+								<a href="" class="btn  btn-primary" id="alertMe" >Log in</a>
 								<button class="btn btn-default " data-dismiss="modal" type="button">Close</button>
 							</div><!--end modal footer-->
 
@@ -400,13 +401,10 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-2">
+				<div class="col-sm-3">
 					<h6>Copyright &copy; 2010Taj</h6>
 				</div><!--end col-->
-				<div class="col-sm-4">
-					<h1>TAJ  MAHOTSAV  2016</h1>
-				</div><!--end colsm4-->
-				<div class="col-sm-2">
+				<div class="col-sm-3">
 					<h6>Navigation</h6>
 					<ul class="unstyled">
 						 <li><a href="#">Home</a></li>
@@ -415,7 +413,7 @@
 						 <li><a href="#">Contact</a></li>
 					</ul>
 				</div><!--end col-->
-				<div class="col-sm-2">
+				<div class="col-sm-3">
 					<h6>Follow us</h6>
 					<ul class="unstyled">
 						 <li><a href="#"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a></li>
@@ -423,8 +421,8 @@
 						<li><a href="#"><i class="fa fa-facebook fa-3x" aria-hidden="true"></i></a></li>
 					</ul>
 				</div><!--end col-->
-				<div class="col-sm-2">
-					<img src="images/LogoMakr (2).png" alt="taj" />
+				<div class="col-sm-3" id="logo">
+					<img src="images/LogoMakr (2).png" alt="taj" style="width:80px;height:80px;" />
 				</div><!--end col-->
 			</div><!--end row-->
 		</div><!--end footer container-->
